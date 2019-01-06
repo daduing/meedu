@@ -27,7 +27,7 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>课程名 @include('components.backend.required')</label>
+                    <label>视频名 @include('components.backend.required')</label>
                     <input type="text" class="form-control" name="title" value="{{old('title')}}" placeholder="视频名" required>
                 </div>
                 <div class="form-group">
